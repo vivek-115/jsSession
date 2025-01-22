@@ -13,7 +13,7 @@ console.log(myCreatedDate.toDateString());
 console.log(myCreatedDate.toLocaleString());
 
 let myTimeStamp=new Date();
-console.log(myTimeStamp.getTime());
+console.log(myTimeStamp.getTime());  //return int value as Miliseconds
 console.log(myCreatedDate.getTime());
 
 let newDate=new Date();
