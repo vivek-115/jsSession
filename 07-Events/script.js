@@ -1,3 +1,6 @@
-document.getElementById('owl').onclick=function(){
-    alert("owl clicked");
-}
+document.getElementById('owl').addEventListener('click', function(eventObject){
+    // alert("Owl Clicked");
+    console.log(eventObject);
+},false);   //false is the default
+//type, timestamp, 
+
