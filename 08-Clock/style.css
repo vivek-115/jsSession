@@ -21,8 +21,10 @@
 #hourHand{
     width: 2%;
     height: 23%;
-    top: 25%;
-    left: 49%;
+    /* top: 25%;
+    left: 49%; */
+    top: 26%;
+    left: 47%;
     border-radius: 2px;
 }
 #minuteHand{
