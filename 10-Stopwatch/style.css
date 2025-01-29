@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.stopwatch{
+    width: 50vw;
+    
+    margin: auto;
+    margin-top: 10%;
+    border-radius: 30px;
+   
+}
+.timer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+   
+}
+#seconds{
+    border: 2px solid green;
+    padding: 20px;
+    border-radius: 20px;
+    font-weight: 500;
+    border: none;
+}
+#minutes{
+    margin-right: 30px;
+    border: 2px solid blue;
+    padding: 20px;
+    border-radius: 20px;
+    font-weight: 500;
+    border: none;
+}
+.buttons{
+   text-align: center;
+   padding: 10px;
+   border-radius: 30px;
+}
+.btn{
+    padding: 15px;
+    border-radius: 15px;
+    color: white;
+    border: none;
+}
+.btn:hover{
+    background-color:rgb(69, 228, 69);
+    color: rgb(39, 38, 38);
+}
