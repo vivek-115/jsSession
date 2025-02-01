@@ -1,0 +1,38 @@
+
+#LoginForm{
+    border: 1px solid grey;
+    
+    margin: auto;
+    margin-top: 8%;
+    width: 50%;
+    height: 32vw;
+    text-align: center;
+    padding: 10px;
+    border-radius: 20px;
+}
+#name{
+    margin: 30px;
+    width: 43%;
+    padding: 10px;
+    border: 1px solid grey;
+    border-radius: 20px;
+}
+
+#email{
+    margin: 30px;
+    width: 43%;
+    padding: 10px;
+    border: 1px solid grey;
+    border-radius: 20px;
+}
+button{
+    width: 23%;
+    padding: 10px;
+    color: #fff;
+    font-weight: 500;
+    border-radius: 23px;
+    margin-top: 40px;
+}
+#div-submit{
+    margin-top: 25px;
+}
