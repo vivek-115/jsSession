@@ -1,4 +1,4 @@
-let arr=[1,2,[3,1,[4,2],5],7,8];
+let arr=[1,2,[3,1,[4,2],5],7,8];         
 
 function sumArray(arr){
     let sum=0;
