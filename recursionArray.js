@@ -16,3 +16,7 @@ function sumArray(arr){
 }
 
 console.log("The Sum is: "+sumArray(arr));
+
+
+//hoisting only works in case of var and function
+//hoisting doesn,t works incase of let and const
