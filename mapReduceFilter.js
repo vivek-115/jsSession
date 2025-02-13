@@ -7,7 +7,7 @@ function doubledArray() {
     let doubleArray = arr.map((element) => element * 2);
     return doubleArray;
 }
-// console.log("Double Array: "+doubledArray())
+// console.log("Q1: "+doubledArray())
 
 //2. Given an array of strings ["apple", "banana", "cherry"], use map() to return a new array containing the length of each string.
 function lengthOfString() {
@@ -15,7 +15,7 @@ function lengthOfString() {
     let narr = fruits.map((element) => element.length);
     return narr;
 }
-// console.log("New Array: "+lengthOfString());
+// console.log("Q2: "+lengthOfString());
 
 //3.Given an array of words ["hello", "world", "map", "reduce"], use map() to return a new array where each word is in uppercase.
 function upperCase() {
@@ -23,7 +23,7 @@ function upperCase() {
     let narr = words.map((element) => element.toUpperCase());
     return narr;
 }
-// console.log("UpperCased Array: "+upperCase());
+ //console.log("Q3: "+upperCase());
 
 //4. You have an array of objects [{name: "Alice", age: 25}, {name: "Bob", age: 30}, {name: "Charlie", age: 35}]. Use map() to create a new array of strings in the format "Name: [name], Age: [age]".
 function extractArray() {
@@ -35,7 +35,7 @@ function extractArray() {
     return narr;
 
 }
-// console.log(extractArray());
+ //console.log("Q4: ",extractArray());
 
 //5. Given an array of date strings ["2025-02-01", "2025-03-01", "2025-04-01"], use map() to return an array of Date objects and then format them to "DD-MM-YYYY".
 function formatDate() {
@@ -53,7 +53,7 @@ function formatDate() {
     });
     return narr;
 }
-//console.log("Date: ", formatDate());
+//console.log("Q5: ", formatDate());
 
 //6. Given an array [[1, 2], [3, 4], [5, 6]], use map() to flatten each sub-array and double every number, resulting in [2, 4, 6, 8, 10, 12].
 function flatSumArray() {
@@ -62,7 +62,7 @@ function flatSumArray() {
     let narr = arr.map((element) => element.map((value) => value * 2))
     return narr.flat(2);  //can it be done without using the flat();
 }
-// console.log("Q.6. ",flatSumArray());
+ //console.log("Q.6. ",flatSumArray());
 
 
 //7. Given an array of objects [{id: 1, price: 100}, {id: 2, price: 200}, {id: 3, price: 300}], use map() to create an array of objects that includes the id and the price with a 10% discount applied.
@@ -77,7 +77,7 @@ function priceObject() {
 
     return narr;
 }
-// console.log("Q7 ",priceObject());
+ //console.log("Q7 ",priceObject());
 
 //8. Given an array [1, 2, 3, 4, 5, 6], use filter() to return a new array containing only the even numbers.
 
@@ -189,7 +189,7 @@ function nonEmptyString() {
 
     return narr;
 }
-// console.log("Q.17. ",nonEmptyString());
+ //console.log("Q.17. ",nonEmptyString());
 
 //18. Given an array [[1, 2], [3, 4], [5, 6]], use reduce() to flatten the array into a single array [1, 2, 3, 4, 5, 6].
 
@@ -231,7 +231,7 @@ function checkIfEven(){
    let isEven= arr.some((element)=> element%2==0);
    return isEven;
 }
-// console.log("Q.21 ",checkIfEven());
+ //console.log("Q.21 ",checkIfEven());
 
 //22. Write a function that takes an array of numbers and returns true if all numbers are greater than 10 using the every() method.
 function checkIfNumIsGreater(){
@@ -261,7 +261,7 @@ function checkWord(){
       let isEligible=users.every((element)=>element.age>18);
       return isEligible;
   }
-  //console.log("Q.24: ",checkAge());
+ // console.log("Q.24: ",checkAge());
 
 //25. Write a function that checks if an array of numbers contains at least one negative number using the some() method.
 function checkNegative(){
@@ -269,4 +269,4 @@ function checkNegative(){
    let isNegative= arr.some((element)=>element<0);
    return isNegative;
 }
-console.log("Q.25: ",checkNegative());
+//console.log("Q.25: ",checkNegative());
