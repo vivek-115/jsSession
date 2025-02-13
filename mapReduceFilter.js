@@ -264,7 +264,6 @@ function checkWord(){
   //console.log("Q.24: ",checkAge());
 
 //25. Write a function that checks if an array of numbers contains at least one negative number using the some() method.
-
 function checkNegative(){
     let arr=[1,2,3,4,-5,6];
    let isNegative= arr.some((element)=>element<0);
