@@ -5,7 +5,7 @@ console.log(mango);
 
 const [a,b,...z]=fruits;
 console.log(a,b);
-console.log(z);
+console.log("Vivek", z);
 
 //Object Destructing
 const user={

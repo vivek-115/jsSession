@@ -223,4 +223,51 @@ function findAverage(){
    
     return avg;
 }
-console.log("Q.20: ",findAverage());
+//console.log("Q.20: ",findAverage());
+
+//21. Write a function that takes an array of numbers and returns true if at least one number is even using the some() method.
+function checkIfEven(){
+    let arr=[1,3,3,4,5,9,7];
+   let isEven= arr.some((element)=> element%2==0);
+   return isEven;
+}
+// console.log("Q.21 ",checkIfEven());
+
+//22. Write a function that takes an array of numbers and returns true if all numbers are greater than 10 using the every() method.
+function checkIfNumIsGreater(){
+    let arr=[12,23,45,23,87,39];
+   let isGreater= arr.every((element)=>element>10)
+   return isGreater;
+}
+//console.log("Q22: ",checkIfNumIsGreater());
+
+//23. Write a function that checks if an array of strings contains at least one string with the word "hello" using the some() method.
+function checkWord(){
+    let name=["helloworld","mini","kiwi"];
+   let isPresent= name.some((element)=>element.includes("hello"));
+   return isPresent;
+}
+//console.log("Q23: ",checkWord());
+
+//24. Given an array of objects representing users , use the every() method to check if all users are above 18 years old.
+
+  function checkAge(){
+    const users = [
+        { name: "Alice", age: 25 },
+        { name: "Bob", age: 30 },
+        { name: "Charlie", age: 17 }
+      ];
+      
+      let isEligible=users.every((element)=>element.age>18);
+      return isEligible;
+  }
+  //console.log("Q.24: ",checkAge());
+
+//25. Write a function that checks if an array of numbers contains at least one negative number using the some() method.
+
+function checkNegative(){
+    let arr=[1,2,3,4,-5,6];
+   let isNegative= arr.some((element)=>element<0);
+   return isNegative;
+}
+console.log("Q.25: ",checkNegative());
