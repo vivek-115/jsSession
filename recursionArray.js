@@ -20,3 +20,13 @@ console.log("The Sum is: "+sumArray(arr));
 
 //hoisting only works in case of var and function
 //hoisting doesn,t works incase of let and const
+
+//Prototype
+// Inheritance
+// Class
+
+// Promise
+// Async 
+// Await
+// Synchronous / Async
+// API calling
