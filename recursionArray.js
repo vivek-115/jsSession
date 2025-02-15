@@ -30,3 +30,5 @@ console.log("The Sum is: "+sumArray(arr));
 // Await
 // Synchronous / Async
 // API calling
+//window
+//localStorage
